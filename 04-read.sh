@@ -1,6 +1,11 @@
 #!/bin/bash
-echo "Enter your username"
+un=user_name
+echo "Enter your $un"
 
 read USERNAME
 
-echo "username entered: $USERNAME"
+echo "$un entered: $USERNAME"
+
+echo "Enter your password"
+read -s  PASSWORD
+echo "password entered succesfully"
