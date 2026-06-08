@@ -8,3 +8,11 @@ then
 fi
 
 yum install git -y
+
+if [$? -ne 0 ]
+then
+    echo "Installing git failed"
+    exit 1
+else
+    echo "Installing success"
+fi
